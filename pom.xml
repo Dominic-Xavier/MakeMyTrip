@@ -39,7 +39,7 @@
        </configuration>
      </plugin>
       
-     <!-- <plugin>
+     <plugin>
           <groupId>net.masterthought</groupId>
           <artifactId>maven-cucumber-reporting</artifactId>
           <version>${cucumber-extent-report-version}</version>
@@ -52,11 +52,11 @@
 	            </goals>
 	            <configuration>
 	                <projectName>Make My Trip</projectName>
-	                output directory for the generated report
+	                <!-- output directory for the generated report -->
 	                <outputDirectory>${project.build.directory}/Cucumber-Extent-Report</outputDirectory>
 	                <inputDirectory>target/cucumber-reports</inputDirectory>
 	                <jsonFiles>
-	                    supports wildcard or name pattern
+	                    <!-- supports wildcard or name pattern -->
 	                    <param>cucumberJsonReport.json</param>
 	                </jsonFiles>
 	                <skippedFails>true</skippedFails>
@@ -66,7 +66,7 @@
 	            </configuration>
 	        </execution>
 	    </executions>
-      </plugin> -->
+      </plugin>
 
   </plugins>
  </build>  

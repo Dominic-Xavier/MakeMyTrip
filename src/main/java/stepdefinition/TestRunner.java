@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 	publish = true,
 	plugin = {"html:target/cucumber-reports/cucumberhtmlreport.html",
 			"json:target/cucumber-reports/cucumberJsonReport.json","rerun:target/rerun.txt"
-			,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+		/* ,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" */}
 )
 
 
